@@ -1,0 +1,5 @@
+<form [formGroup]="addNoteForm" (ngSubmit)="addNote()">
+    <p><input type="text" formControlName="title"></p>
+    <p><input type="text" formControlName="description"></p>
+    <p><input type="submit" value="Submit" [disabled]="!addNoteForm.valid"></p>
+</form>

@@ -1,0 +1,71 @@
+/* Style the note detail container */
+#note-container {
+    margin-top: 10px;
+    padding: 0;
+}
+
+/* Style the note detail card */
+.note-detail-card {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* Add a hover effect for interactivity */
+.note-detail-card:hover {
+    background-color: #e0e0e0;
+}
+
+/* Style the note title */
+.note-title {
+    display: block;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Style the note ID */
+.note-id {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Style the note text */
+.note-text {
+    font-size: 1em;
+    color: #555;
+}
+/* Delete button style */
+.delete-btn {
+    background-color: #ff4d4d;
+    /* Red background */
+    color: white;
+    /* White text */
+    border: none;
+    /* No borders */
+    padding: 8px 12px;
+    /* Padding for button */
+    margin-top: 10px;
+    /* Space above the delete button */
+    border-radius: 5px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    /* Smooth transition on hover */
+    display: block;
+    /* Block to create space around button */
+}
+
+.delete-btn:hover {
+    background-color: #ff1a1a;
+    /* Darker red on hover */
+}

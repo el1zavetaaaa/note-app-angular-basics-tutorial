@@ -1,0 +1,7 @@
+h1 {
+    background-color: #4CAF50;
+    color: white;
+    margin-bottom: 20px;
+    /* Ensure there is spacing between the title and the notes */
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+ @if (note) {
+    <div id="note-container">
+        <div class="note-detail-card">
+            <span class="note-title">{{ note.title }}</span>
+            <span class="note-text">{{ note.text }}</span>
+            <span class="note-text">{{ note.id }}</span>
+            <button class="delete-btn" (click)="deleteNote(note.id)">Delete</button>
+        </div>
+    </div>
+
+ }
